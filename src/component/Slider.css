@@ -26,7 +26,7 @@ align-items: center;
 justify-content: space-between;
 }
 .text{
-   background-color: aqua;
+   background-color: #e5e5e5;
    width: 48%;
    height: 400px;
    padding: 30px;
@@ -51,6 +51,18 @@ position: absolute;
 bottom: 15px;
 right: 0;
 }
+/* target icon in button */
+.wholeButton button{
+border: none;
+background-color: #e5e5e5;
+width: 60px;
+height: 60px;
+border-radius: 100%;
+margin: 0px 5px;
+font-size: 20px;
+}
+
+
 .dash{
   display: flex; 
 margin-top: 50px;
@@ -58,4 +70,10 @@ margin-top: 50px;
 }
 .dash p{
    margin: 5px;
+   color: green;
+   font-size: 30px;
+}
+
+.dash p:hover{
+   color: #ff7d00;
 }

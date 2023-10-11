@@ -5,28 +5,28 @@ import './Slider.css';
 const data = [
   {
     id: 1,
-    name: 'banana',
+    name: 'Banana',
     description: 'desscription banana is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type',
     image:
       'https://images.pexels.com/photos/13211456/pexels-photo-13211456.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 2,
-    name: 'apple',
+    name: 'Apple',
     description: 'desscription apple is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type',
     image:
       'https://images.unsplash.com/photo-1576179635662-9d1983e97e1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YXBwbGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60',
   },
   {
     id: 3,
-    name: 'pineapple',
+    name: 'Pineapple',
     description: 'desscription pineapple is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type',
     image:
       'https://images.pexels.com/photos/137119/pexels-photo-137119.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 4,
-    name: 'orange',
+    name: 'Orange',
     description: 'desscription orange is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type',
     image:
       'https://images.pexels.com/photos/2294477/pexels-photo-2294477.jpeg?auto=compress&cs=tinysrgb&w=800',
