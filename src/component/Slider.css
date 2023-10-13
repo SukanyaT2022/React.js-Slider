@@ -20,7 +20,6 @@ margin: 50px auto 0px auto;
 
 }
 .mainTextImage{
-
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -76,4 +75,45 @@ margin-top: 50px;
 
 .dash p:hover{
    color: #ff7d00;
+}
+/* ipad */
+@media screen and (max-width:992px) {
+   .wholeWrapper{
+      width: 80%;
+     
+      }
+      @media screen and (max-width:600px) {
+
+         .wholeWrapper{     
+      height: auto;
+            width: 90%;
+       
+            padding: 10px 0px 100px 0px;
+            }
+         .mainTextImage{
+            flex-direction: column-reverse;
+            }
+
+            .text{
+               width: 90%;
+               height: auto;
+            }
+            .text p{
+               margin-top: 10px;
+               line-height: 25px;
+            }
+            .image{
+               width: 90%;
+               height: 300px;
+       
+            }
+          
+            .wholeButton{
+           left: 50%;
+            transform: translateX(-50%);       
+            text-align: center;
+            }
+           
+          
+      }
 }

@@ -62,6 +62,7 @@ setCurrentIndex((valpre)=>(valpre===0)? data.length-1 : valpre - 1)
 
   return (
     <>
+  
       <div className="wholeWrapper">
         <div className="mainTextImage">
 
